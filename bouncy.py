@@ -67,11 +67,3 @@ class BouncyProportion:
             count += self.count(num, num)
 
         return num
-        """
-        for num in range(100, maximun + 1):
-            count += self.count(num, num)
-            if count / num >= percentage / 100:
-                return num
-
-        return 0
-        """
